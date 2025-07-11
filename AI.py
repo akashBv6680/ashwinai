@@ -14,7 +14,7 @@ st.markdown(
     f"""
     <style>
     .stApp {{
-        background-image: url("https://raw.githubusercontent.com/akashBv6680/ashwinai/main/c3a9cf173291955.648da452abee5.png");
+        background-image: url("https://raw.githubusercontent.com/akashBv6680/ashwinai/main/white.png");
         background-size: cover;
     }}
     </style>
@@ -41,11 +41,11 @@ def get_response(query):
         return "Error: " + str(response.status_code)
 
 def main():
-    st.title("AI Chatbot")
+    st.title("HELLO I'M BHEEMA AI Chatbot")
     query = st.text_input("You: ")
     if query:
         response = get_response(query)
-        st.write("AI: ", response)
+        st.write("BHEEMA AI: ", response)
 
 if __name__ == "__main__":
     main()
